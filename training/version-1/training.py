@@ -8,13 +8,12 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
 
-#TEST_NR = '3'
 epochs = 20
 IMAGE_SIZE = 224
 BATCH_SIZE = 64
-#TRAINING_CATEGORY = 'test_toate_%s' % TEST_NR
-TRAINING_CATEGORY = 'squat_outfit'
-BASE = 'poze/%s/' % TRAINING_CATEGORY
+EXERCISE = 'plank'
+TRAINING_CATEGORY = 'outfit'
+BASE = 'img/%s/%s/' % (EXERCISE, TRAINING_CATEGORY)
 
 datagen = tf.keras.preprocessing.image.ImageDataGenerator(
     rescale=1./255,

@@ -1,3 +1,11 @@
-This is work-in-progress to allow multiple mistakes
+This is work-in-progress
 
-Dataset (Google Drive): https://drive.google.com/file/d/14O1zJUQ45kRImL7RxGSgpn_Oqn4Bqvai/view?usp=sharing
+Inspired from https://colab.research.google.com/github/tensorflow/examples/blob/master/community/en/flowers_tf_lite.ipynb and https://www.tensorflow.org/tutorials/images/data_augmentation
+
+Changes from version-1: new dataset:
+- Added more backgrounds
+- Added more mistakes
+- Contains only plank images
+- Reduced the number of very similar images (replaced with automatic data augmentation)
+
+Only the metadata of the dataset is available. For the full dataset, please contact me at cristipiticul@gmail.com
