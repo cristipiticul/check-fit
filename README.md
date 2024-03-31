@@ -1,6 +1,6 @@
 # check-fit
 
-Android application based on convolutional neural networks for checking posture of Plank and Holding Squat exercises
+Android application based on convolutional neural networks for checking posture of Plank and Holding Squat exercises. To view a demo on YouTube, click on the below image:
 
 [![Android phone showing the application - link to YouTube video](https://img.youtube.com/vi/IeD4GcdJNxI/0.jpg)](https://www.youtube.com/watch?v=IeD4GcdJNxI)
 
